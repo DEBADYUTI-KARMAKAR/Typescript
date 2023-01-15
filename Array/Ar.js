@@ -2,11 +2,13 @@
 var arr;
 arr = ["java", "c", "c++", "python", "javascript"];
 arr.push("c#");
+var lang = arr.find(function (lang) { return lang.length > 3; });
+console.log(lang);
 var deplist;
 deplist = ["java", "c", "c++", "python", "javascript"];
 var numlist;
 numlist = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var result = numlist.filter(function (num) { return num % 2 == 0; });
 console.log(result);
-var res = numlist.find(function (num) { return num % 2 == 0; });
+var res = numlist.find(function (num) { return num % 1 == 0; });
 console.log(res);
