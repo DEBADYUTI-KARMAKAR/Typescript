@@ -19,3 +19,4 @@ console.log(result);
 
 let sum = numlist.reduce((num1, num2)=> num1+num2);
 console.log(sum);
+
