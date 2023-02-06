@@ -4,5 +4,5 @@ const enum Color {
     Blue
 }
 
-let c: Color = Color.Green;
-console.log(c); //1
+let c: Color = Color.Red;
+console.log(c); // 0
